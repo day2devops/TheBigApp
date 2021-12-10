@@ -17,7 +17,7 @@ function parseVersion() {
         }
     });
     if (version === null) {
-        throw new Error('pom.xml is malformed. No version is defined');
+        throw new Error('pom.xml is malformed. No version is defined. And that is a bad time');
     }
     return version;
 }
